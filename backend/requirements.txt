@@ -1,0 +1,30 @@
+# Backend dependencies for Havi
+# Voice Authentication & Deepfake Detection
+
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.0
+python-multipart==0.0.9
+
+# ML / Audio
+torch>=2.0.0
+torchaudio>=2.0.0
+speechbrain>=1.0.0
+librosa>=0.10.0
+soundfile>=0.12.0
+numpy>=1.24.0
+scipy>=1.11.0
+scikit-learn>=1.3.0
+
+# Database
+sqlalchemy>=2.0.0
+aiosqlite>=0.19.0
+
+# Cryptography
+cryptography>=41.0.0
+
+# Utilities
+pydantic>=2.0.0
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.0
+sqlalchemy
